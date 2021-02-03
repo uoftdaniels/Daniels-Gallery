@@ -32,16 +32,91 @@
       <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Crestron.SimplSharpPro.DeviceSupport">
-      <HintPath>..\packages\Crestron.SimplSharp.SDK.Program.2.12.41\lib\net47\Crestron.SimplSharpPro.DeviceSupport.dll</HintPath>
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.DeviceSupport.dll</HintPath>
     </Reference>
     <Reference Include="SimplSharpCustomAttributesInterface">
-      <HintPath>..\packages\Crestron.SimplSharp.SDK.Program.2.12.41\lib\net47\SimplSharpCustomAttributesInterface.dll</HintPath>
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\lib\net47\SimplSharpCustomAttributesInterface.dll</HintPath>
     </Reference>
     <Reference Include="SimplSharpHelperInterface">
-      <HintPath>..\packages\Crestron.SimplSharp.SDK.Program.2.12.41\lib\net47\SimplSharpHelperInterface.dll</HintPath>
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\lib\net47\SimplSharpHelperInterface.dll</HintPath>
     </Reference>
     <Reference Include="SimplSharpPro">
-      <HintPath>..\packages\Crestron.SimplSharp.SDK.Program.2.12.41\lib\net47\SimplSharpPro.exe</HintPath>
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\SimplSharpPro.exe</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpAutoUpdateInterface">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\lib\net47\SimplSharpAutoUpdateInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpCryptographyInterface">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\lib\net47\SimplSharpCryptographyInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpCWSHelperInterface">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\lib\net47\SimplSharpCWSHelperInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpExchangeWebServices">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\lib\net47\SimplSharpExchangeWebServices.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpNewtonsoft">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\lib\net47\SimplSharpNewtonsoft.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpOnvifInterface">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\lib\net47\SimplSharpOnvifInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpReflectionInterface">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\lib\net47\SimplSharpReflectionInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpSQLHelperInterface">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\lib\net47\SimplSharpSQLHelperInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpTimerEventInterface">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\lib\net47\SimplSharpTimerEventInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.AudioDistribution">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.AudioDistribution.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.CrestronConnected">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.CrestronConnected.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.DM">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.DM.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.EthernetCommunications">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.EthernetCommunications.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Fusion">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.Fusion.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Gateways">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.Gateways.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.GeneralIO">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.GeneralIO.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Keypads">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.Keypads.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Lighting">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.Lighting.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Media">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Remotes">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.Remotes.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Shades">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.Shades.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Thermostats">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.Thermostats.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.ThreeSeriesCards">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.ThreeSeriesCards.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.UC">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.UC.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.UI">
+      <HintPath>..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\lib\net47\Crestron.SimplSharpPro.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -52,5 +127,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\Crestron.SimplSharp.SDK.Program.2.12.41\build\Crestron.SimplSharp.SDK.Program.targets" Condition="Exists('..\packages\Crestron.SimplSharp.SDK.Program.2.12.41\build\Crestron.SimplSharp.SDK.Program.targets')" />
+  <Import Project="..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\build\Crestron.SimplSharp.SDK.Library.targets" Condition="Exists('..\packages\Crestron.SimplSharp.SDK.Library.2.14.142\build\Crestron.SimplSharp.SDK.Library.targets')" />
+  <Import Project="..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\build\Crestron.SimplSharp.SDK.ProgramLibrary.targets" Condition="Exists('..\packages\Crestron.SimplSharp.SDK.ProgramLibrary.2.14.142\build\Crestron.SimplSharp.SDK.ProgramLibrary.targets')" />
+  <Import Project="..\packages\Crestron.SimplSharp.SDK.Program.2.14.142\build\Crestron.SimplSharp.SDK.Program.targets" Condition="Exists('..\packages\Crestron.SimplSharp.SDK.Program.2.14.142\build\Crestron.SimplSharp.SDK.Program.targets')" />
 </Project>
