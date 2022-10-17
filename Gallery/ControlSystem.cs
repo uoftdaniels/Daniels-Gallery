@@ -25,9 +25,10 @@ namespace Gallery
         public ControlSystem()
             : base()
         {
+            ErrorLog.Notice("Starting Gallery Control");
             try
             {
-                Thread.MaxNumberOfUserThreads = 20;
+                Thread.MaxNumberOfUserThreads = 400;
 
                 //Subscribe to the controller events (System, Program, and Ethernet)
                 CrestronEnvironment.SystemEventHandler += new SystemEventHandler(_ControllerSystemEventHandler);
