@@ -1,15 +1,24 @@
-import { ref, computed } from "vue";
-import type { Display } from "@/models/display.model";
 import { defineStore } from "pinia";
+import type { Display } from "@/models/display.model";
+
+type StoreState = {
+  displays: Display[];
+};
 
 export const useCrestronStore = defineStore("crestron", {
-  state: () => ({
-    displays: Display[]
+  state: (): StoreState => ({
+    displays: [] as Display[],
   }),
-  getters: {
-
-  },
+  getters: {},
   actions: {
-
-  }
+    powerOn(id: string) {
+      const index = this.findIndexById(id);
+      if (index !== -1) {
+        this.displays[index].power = true;
+      }
+    },
+    findIndexById(id: string) {
+      return this.displays.findIndex((display) => display.id === id);
+    },
+  },
 });
