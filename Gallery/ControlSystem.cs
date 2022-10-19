@@ -5,10 +5,12 @@ using Crestron.SimplSharpPro.CrestronThread;        	// For Threading
 using Crestron.SimplSharpPro.Diagnostics;		    	// For System Monitor Access
 using Crestron.SimplSharpPro.DeviceSupport;         	// For Generic Device Support
 
-namespace Gallery
+
+namespace Daniels.Gallery
 {
     public class ControlSystem : CrestronControlSystem
     {
+        private Devices _devices;
         /// <summary>
         /// ControlSystem Constructor. Starting point for the SIMPL#Pro program.
         /// Use the constructor to:
@@ -29,6 +31,8 @@ namespace Gallery
             try
             {
                 Thread.MaxNumberOfUserThreads = 400;
+
+                _devices = new Devices();
 
                 //Subscribe to the controller events (System, Program, and Ethernet)
                 CrestronEnvironment.SystemEventHandler += new SystemEventHandler(_ControllerSystemEventHandler);
@@ -58,7 +62,7 @@ namespace Gallery
         {
             try
             {
-
+                _devices.Initialize(this);
             }
             catch (Exception e)
             {
@@ -81,13 +85,13 @@ namespace Gallery
                 case (eEthernetEventType.LinkDown):
                     //Next need to determine which adapter the event is for. 
                     //LAN is the adapter is the port connected to external networks.
-                    if (ethernetEventArgs.EthernetAdapter == EthernetAdapterType.EthernetLANAdapter)
+                    if (ethernetEventArgs.EthernetAdapter == Crestron.SimplSharp.EthernetAdapterType.EthernetLANAdapter)
                     {
                         //
                     }
                     break;
                 case (eEthernetEventType.LinkUp):
-                    if (ethernetEventArgs.EthernetAdapter == EthernetAdapterType.EthernetLANAdapter)
+                    if (ethernetEventArgs.EthernetAdapter == Crestron.SimplSharp.EthernetAdapterType.EthernetLANAdapter)
                     {
 
                     }

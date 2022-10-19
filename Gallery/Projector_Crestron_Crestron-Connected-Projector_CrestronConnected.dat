@@ -1,0 +1,662 @@
+{
+  "manufacturer": "Crestron",
+  "driverId": "89EA2345-5F0E-443F-8DA2-5F345F3371A3",
+  "power": {
+    "useLocalWarmupTimer": false,
+    "warmUpTime": 0,
+    "useLocalCooldownTimer": false,
+    "coolDownTime": 0
+  },
+  "deviceType": "Projector",
+  "deviceTypeId": "Projector",
+  "sdkVersion": "2.9.1",
+  "driverVersion": "5.0000.0029",
+  "supportedSeries": [
+    "Crestron Connected Projector"
+  ],
+  "description": "Crestron Connected Projector",
+  "supportedModels": [
+    "Crestron Connected Projector",
+    "Generic"
+  ],
+  "inputs": [
+    {
+      "inputDescription": "Source 1",
+      "inputConnector": "Unknown",
+      "inputType": "Input1",
+      "index": 1
+    },
+    {
+      "inputDescription": "Source 2",
+      "inputConnector": "Unknown",
+      "inputType": "Input2",
+      "index": 2
+    },
+    {
+      "inputDescription": "Source 3",
+      "inputConnector": "Unknown",
+      "inputType": "Input3",
+      "index": 3
+    },
+    {
+      "inputDescription": "Source 4",
+      "inputConnector": "Unknown",
+      "inputType": "Input4",
+      "index": 4
+    },
+    {
+      "inputDescription": "Source 5",
+      "inputConnector": "Unknown",
+      "inputType": "Input5",
+      "index": 5
+    },
+    {
+      "inputDescription": "Source 6",
+      "inputConnector": "Unknown",
+      "inputType": "Input6",
+      "index": 6
+    },
+    {
+      "inputDescription": "Source 7",
+      "inputConnector": "Unknown",
+      "inputType": "Input7",
+      "index": 7
+    },
+    {
+      "inputDescription": "Source 8",
+      "inputConnector": "Unknown",
+      "inputType": "Input8",
+      "index": 8
+    },
+    {
+      "inputDescription": "Source 9",
+      "inputConnector": "Unknown",
+      "inputType": "Input9",
+      "index": 9
+    },
+    {
+      "inputDescription": "Source 10",
+      "inputConnector": "Unknown",
+      "inputType": "Input10",
+      "index": 10
+    },
+    {
+      "inputDescription": "Source 11",
+      "inputConnector": "Unknown",
+      "inputType": "Input11",
+      "index": 11
+    },
+    {
+      "inputDescription": "Source 12",
+      "inputConnector": "Unknown",
+      "inputType": "Input12",
+      "index": 12
+    },
+    {
+      "inputDescription": "Source 13",
+      "inputConnector": "Unknown",
+      "inputType": "Input13",
+      "index": 13
+    },
+    {
+      "inputDescription": "Source 14",
+      "inputConnector": "Unknown",
+      "inputType": "Input14",
+      "index": 14
+    },
+    {
+      "inputDescription": "Source 15",
+      "inputConnector": "Unknown",
+      "inputType": "Input15",
+      "index": 15
+    }
+  ],
+  "features": [
+    {
+      "displayName": "Arrow Keys is supported",
+      "id": "SupportsArrowKeys",
+      "value": false
+    },
+    {
+      "displayName": "Asterisk is supported",
+      "id": "SupportsAsterisk",
+      "value": false
+    },
+    {
+      "displayName": "Back is supported",
+      "id": "SupportsBack",
+      "value": false
+    },
+    {
+      "displayName": "Change Channel is supported",
+      "id": "SupportsChangeChannel",
+      "value": false
+    },
+    {
+      "displayName": "Change Volume is supported",
+      "id": "SupportsChangeVolume",
+      "value": true
+    },
+    {
+      "displayName": "Channel Feedback is supported",
+      "id": "SupportsChannelFeedback",
+      "value": false
+    },
+    {
+      "displayName": "Clear is supported",
+      "id": "SupportsClear",
+      "value": false
+    },
+    {
+      "displayName": "Color Buttons is supported",
+      "id": "SupportsColorButtons",
+      "value": false
+    },
+    {
+      "displayName": "Cool Down Time is supported",
+      "id": "SupportsCoolDownTime",
+      "value": true
+    },
+    {
+      "displayName": "Dash is supported",
+      "id": "SupportsDash",
+      "value": false
+    },
+    {
+      "displayName": "Disconnect is supported",
+      "id": "SupportsDisconnect",
+      "value": false
+    },
+    {
+      "displayName": "Discrete Mute is supported",
+      "id": "SupportsDiscreteMute",
+      "value": true
+    },
+    {
+      "displayName": "Discrete Power is supported",
+      "id": "SupportsDiscretePower",
+      "value": true
+    },
+    {
+      "displayName": "Dvr Command is supported",
+      "id": "SupportsDvrCommand",
+      "value": false
+    },
+    {
+      "displayName": "Enter is supported",
+      "id": "SupportsEnter",
+      "value": false
+    },
+    {
+      "displayName": "Exit is supported",
+      "id": "SupportsExit",
+      "value": false
+    },
+    {
+      "displayName": "Forward Scan is supported",
+      "id": "SupportsForwardScan",
+      "value": false
+    },
+    {
+      "displayName": "Forward Skip is supported",
+      "id": "SupportsForwardSkip",
+      "value": false
+    },
+    {
+      "displayName": "Guide is supported",
+      "id": "SupportsGuide",
+      "value": false
+    },
+    {
+      "displayName": "Home is supported",
+      "id": "SupportsHome",
+      "value": false
+    },
+    {
+      "displayName": "Info is supported",
+      "id": "SupportsInfo",
+      "value": false
+    },
+    {
+      "displayName": "Keypad Back Space is supported",
+      "id": "SupportsKeypadBackSpace",
+      "value": false
+    },
+    {
+      "displayName": "Keypad Number is supported",
+      "id": "SupportsKeypadNumber",
+      "value": false
+    },
+    {
+      "displayName": "Letter Keys is supported",
+      "id": "SupportsLetterKeys",
+      "value": false
+    },
+    {
+      "displayName": "Live is supported",
+      "id": "SupportsLive",
+      "value": false
+    },
+    {
+      "displayName": "Menu is supported",
+      "id": "SupportsMenu",
+      "value": false
+    },
+    {
+      "displayName": "Mute is supported",
+      "id": "SupportsMute",
+      "value": false
+    },
+    {
+      "displayName": "Mute Feedback is supported",
+      "id": "SupportsMuteFeedback",
+      "value": true
+    },
+    {
+      "displayName": "Page Change is supported",
+      "id": "SupportsPageChange",
+      "value": false
+    },
+    {
+      "displayName": "Pause is supported",
+      "id": "SupportsPause",
+      "value": false
+    },
+    {
+      "displayName": "Period is supported",
+      "id": "SupportsPeriod",
+      "value": false
+    },
+    {
+      "displayName": "Play is supported",
+      "id": "SupportsPlay",
+      "value": false
+    },
+    {
+      "displayName": "Pound is supported",
+      "id": "SupportsPound",
+      "value": false
+    },
+    {
+      "displayName": "Power Feedback is supported",
+      "id": "SupportsPowerFeedback",
+      "value": true
+    },
+    {
+      "displayName": "Reconnect is supported",
+      "id": "SupportsReconnect",
+      "value": false
+    },
+    {
+      "displayName": "Record is supported",
+      "id": "SupportsRecord",
+      "value": false
+    },
+    {
+      "displayName": "Repeat is supported",
+      "id": "SupportsRepeat",
+      "value": false
+    },
+    {
+      "displayName": "Return is supported",
+      "id": "SupportsReturn",
+      "value": false
+    },
+    {
+      "displayName": "Reverse Scan is supported",
+      "id": "SupportsReverseScan",
+      "value": false
+    },
+    {
+      "displayName": "Reverse Skip is supported",
+      "id": "SupportsReverseSkip",
+      "value": false
+    },
+    {
+      "displayName": "Set Channel is supported",
+      "id": "SupportsSetChannel",
+      "value": false
+    },
+    {
+      "displayName": "Set Volume is supported",
+      "id": "SupportsSetVolume",
+      "value": true
+    },
+    {
+      "displayName": "Speed Slow is supported",
+      "id": "SupportsSpeedSlow",
+      "value": false
+    },
+    {
+      "displayName": "Stop is supported",
+      "id": "SupportsStop",
+      "value": false
+    },
+    {
+      "displayName": "Thumbs Down is supported",
+      "id": "SupportsThumbsDown",
+      "value": false
+    },
+    {
+      "displayName": "Thumbs Up is supported",
+      "id": "SupportsThumbsUp",
+      "value": false
+    },
+    {
+      "displayName": "Toggle Power is supported",
+      "id": "SupportsTogglePower",
+      "value": false
+    },
+    {
+      "displayName": "Volume Percent Feedback is supported",
+      "id": "SupportsVolumePercentFeedback",
+      "value": true
+    },
+    {
+      "displayName": "Warm Up Time is supported",
+      "id": "SupportsWarmUpTime",
+      "value": true
+    },
+    {
+      "displayName": "Feedback is supported",
+      "id": "SupportsFeedback",
+      "value": true
+    },
+    {
+      "displayName": "Options is supported",
+      "id": "SupportsOptions",
+      "value": false
+    },
+    {
+      "displayName": "Input Feedback is supported",
+      "id": "SupportsInputFeedback",
+      "value": true
+    },
+    {
+      "displayName": "Lamp Hours is supported",
+      "id": "SupportsLampHours",
+      "value": true
+    },
+    {
+      "displayName": "Set Input Source is supported",
+      "id": "SupportsSetInputSource",
+      "value": true
+    },
+    {
+      "displayName": "Toggle Video Mute is supported",
+      "id": "SupportsToggleVideoMute",
+      "value": false
+    },
+    {
+      "displayName": "Toggle Energy Star is supported",
+      "id": "SupportsToggleEnergyStar",
+      "value": false
+    },
+    {
+      "displayName": "Discrete Energy Star is supported",
+      "id": "SupportsDiscreteEnergyStar",
+      "value": false
+    },
+    {
+      "displayName": "Energy Star Feedback is supported",
+      "id": "SupportsEnergyStarFeedback",
+      "value": false
+    },
+    {
+      "displayName": "Discrete Video Mute is supported",
+      "id": "SupportsDiscreteVideoMute",
+      "value": true
+    },
+    {
+      "displayName": "Video Mute Feedback is supported",
+      "id": "SupportsVideoMuteFeedback",
+      "value": true
+    },
+    {
+      "displayName": "On Screen Display Feedback is supported",
+      "id": "SupportsOnScreenDisplayFeedback",
+      "value": false
+    },
+    {
+      "displayName": "Select is supported",
+      "id": "SupportsSelect",
+      "value": false
+    },
+    {
+      "displayName": "Search is supported",
+      "id": "SupportsSearch",
+      "value": false
+    },
+    {
+      "displayName": "Set Audio Input Source is supported",
+      "id": "SupportsSetAudioInputSource",
+      "value": false
+    },
+    {
+      "displayName": "Set Video Input Source is supported",
+      "id": "SupportsSetVideoInputSource",
+      "value": false
+    },
+    {
+      "displayName": "Audio Input Feedback is supported",
+      "id": "SupportsAudioInputFeedback",
+      "value": false
+    },
+    {
+      "displayName": "Video Input Feedback is supported",
+      "id": "SupportsVideoInputFeedback",
+      "value": false
+    },
+    {
+      "displayName": "Set Audio Output Source is supported",
+      "id": "SupportsSetAudioOutputSource",
+      "value": false
+    },
+    {
+      "displayName": "Set Video Output Source is supported",
+      "id": "SupportsSetVideoOutputSource",
+      "value": false
+    },
+    {
+      "displayName": "Audio Output Feedback is supported",
+      "id": "SupportsAudioOutputFeedback",
+      "value": false
+    },
+    {
+      "displayName": "Video Output Feedback is supported",
+      "id": "SupportsVideoOutputFeedback",
+      "value": false
+    },
+    {
+      "displayName": "Username is supported",
+      "id": "SupportsUsername",
+      "value": false
+    },
+    {
+      "displayName": "Password is supported",
+      "id": "SupportsPassword",
+      "value": false
+    },
+    {
+      "displayName": "Play Pause is supported",
+      "id": "SupportsPlayPause",
+      "value": false
+    },
+    {
+      "displayName": "You Tube is supported",
+      "id": "SupportsYouTube",
+      "value": false
+    },
+    {
+      "displayName": "You Tube Tv is supported",
+      "id": "SupportsYouTubeTv",
+      "value": false
+    },
+    {
+      "displayName": "Netflix is supported",
+      "id": "SupportsNetflix",
+      "value": false
+    },
+    {
+      "displayName": "Hulu is supported",
+      "id": "SupportsHulu",
+      "value": false
+    },
+    {
+      "displayName": "Directv Now is supported",
+      "id": "SupportsDirectvNow",
+      "value": false
+    },
+    {
+      "displayName": "Amazon Video is supported",
+      "id": "SupportsAmazonVideo",
+      "value": false
+    },
+    {
+      "displayName": "Playstation Vue is supported",
+      "id": "SupportsPlaystationVue",
+      "value": false
+    },
+    {
+      "displayName": "Sling Tv is supported",
+      "id": "SupportsSlingTv",
+      "value": false
+    }
+  ],
+  "baseModel": "Crestron Connected Projector",
+  "communication": {
+    "adjustable": false,
+    "type": "CrestronConnected",
+    "secure": false,
+    "authentication": {
+      "type": "None",
+      "required": false
+    }
+  },
+  "driverVersionDate": "2022-04-26 12:00:00.000",
+  "userAttributes": [
+  ],
+  "connections": {
+    "inputs": {
+      "video": [
+        {
+          "type": "Input1",
+          "description": "Source 1",
+          "connector": "Unknown",
+          "friendlyName": "Source 1"
+        },
+        {
+          "type": "Input2",
+          "description": "Source 2",
+          "connector": "Unknown",
+          "friendlyName": "Source 2"
+        },
+        {
+          "type": "Input3",
+          "description": "Source 3",
+          "connector": "Unknown",
+          "friendlyName": "Source 3"
+        },
+        {
+          "type": "Input4",
+          "description": "Source 4",
+          "connector": "Unknown",
+          "friendlyName": "Source 4"
+        },
+        {
+          "type": "Input5",
+          "description": "Source 5",
+          "connector": "Unknown",
+          "friendlyName": "Source 5"
+        },
+        {
+          "type": "Input6",
+          "description": "Source 6",
+          "connector": "Unknown",
+          "friendlyName": "Source 6"
+        },
+        {
+          "type": "Input7",
+          "description": "Source 7",
+          "connector": "Unknown",
+          "friendlyName": "Source 7"
+        },
+        {
+          "type": "Input8",
+          "description": "Source 8",
+          "connector": "Unknown",
+          "friendlyName": "Source 8"
+        },
+        {
+          "type": "Input9",
+          "description": "Source 9",
+          "connector": "Unknown",
+          "friendlyName": "Source 9"
+        },
+        {
+          "type": "Input10",
+          "description": "Source 10",
+          "connector": "Unknown",
+          "friendlyName": "Source 10"
+        },
+        {
+          "type": "Input11",
+          "description": "Source 11",
+          "connector": "Unknown",
+          "friendlyName": "Source 11"
+        },
+        {
+          "type": "Input12",
+          "description": "Source 12",
+          "connector": "Unknown",
+          "friendlyName": "Source 12"
+        },
+        {
+          "type": "Input13",
+          "description": "Source 13",
+          "connector": "Unknown",
+          "friendlyName": "Source 13"
+        },
+        {
+          "type": "Input14",
+          "description": "Source 14",
+          "connector": "Unknown",
+          "friendlyName": "Source 14"
+        },
+        {
+          "type": "Input15",
+          "description": "Source 15",
+          "connector": "Unknown",
+          "friendlyName": "Source 15"
+        }
+      ],
+      "audio": [
+      ]
+    },
+    "outputs": {
+      "video": [
+      ],
+      "audio": [
+      ]
+    }
+  },
+  "modelFiles": null,
+  "multiPowerOff": null,
+  "mediaServiceProviders": null,
+  "artworkMode": null,
+  "videoConfigurations": null,
+  "zoneList": null,
+  "audioVideoSwitcher": null,
+  "extensionDeviceData": {
+    "isExtensionDevice": false,
+    "isMediaDevice": false,
+    "isMediaSource": false
+  },
+  "licenseRequired": false,
+  "supportedPlatforms": [
+    "3-Series",
+    "4-Series"
+  ],
+  "assemblyFileName": "Projector_Crestron_Crestron-Connected-Projector_CrestronConnected.dll",
+  "className": null
+}

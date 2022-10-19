@@ -33,4 +33,21 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>	
 	
+  <ItemGroup>
+    <Reference Include="Crestron.DeviceDrivers.API">
+      <HintPath>packages\rad\lib\Crestron.DeviceDrivers.API.dll</HintPath>
+    </Reference>
+    <Reference Include="RADCommon">
+      <HintPath>packages\rad\lib\RADCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="RADDisplay">
+      <HintPath>packages\rad\lib\RADDisplay.dll</HintPath>
+    </Reference>
+    <Reference Include="RADProTransports">
+      <HintPath>packages\rad\lib\RADProTransports.dll</HintPath>
+    </Reference>
+  </ItemGroup>	
+	
+  <ProjectExtensions><VisualStudio><UserProperties projector_3crestron_3crestron-connected-projector_3crestronconnected_1dat__JsonSchema="json" /></VisualStudio></ProjectExtensions>	
+	
 </Project>
